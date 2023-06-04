@@ -30,6 +30,16 @@ function RadioButton() {
       onChange={changeGender}
       />
     </div>
+    <div>
+        <span>Other</span>
+      <Radio 
+      disabled
+      value="other"
+      checked={gender==='other'}
+      color='secondary'
+      onChange={changeGender}
+      />
+    </div>
     </>
   )
 }
