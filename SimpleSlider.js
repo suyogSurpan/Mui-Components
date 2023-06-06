@@ -1,7 +1,7 @@
 import React from 'react'
 import { Slider } from '@mui/material'
 
-function SliderButton() {
+function SimpleSlider() {
   const mark = [
     {
       value: 0,
@@ -40,4 +40,4 @@ function SliderButton() {
   )
 }
 
-export default SliderButton
+export default SimpleSlider
