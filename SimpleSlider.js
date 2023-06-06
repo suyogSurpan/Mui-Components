@@ -25,7 +25,7 @@ function SliderButton() {
   }
   return (
     <div style={{height:300, margin:20}}>
-      <h1> Slider </h1>
+      <h1> Simple Slider </h1>
       <Slider 
       color='secondary'
       defaultValue={40}
